@@ -1,0 +1,40 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    background-image: url('bg.jpg');
+}
+
+.box {
+    color: white;
+    padding: 70px;
+    background-color: #00000044;
+}
+
+.box legend {
+    text-align: center;
+}
+
+.box input {
+    color: white;
+    border-style: none none solid none;
+    border-color: rgb(21, 255, 0);
+    outline: 0;
+    background-color: transparent;
+}
+
+.box .log {
+    color: #fff;
+    background-color: #00000044;
+    border: none;
+    padding: 8px;
+}
+
+.box legend {
+    font-size: 25px;
+}
